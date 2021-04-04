@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NIT Warangal-portal</title>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="./style.css">
+<style>
+.top h1{
+   font-size:30px;
+   text-align:center;
+}
+.top p{
+   font-size:25px;
+   text-align: center;
+   color: #CCCC00;
+   background-color:black;
+}
+body{
+background-image:
+url('background.jpg');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:100% 100%;
+}
+.menudropdown{
+width:75%;
+height:100px;
+margin:0px auto;
+
+}
+.menudropdown1{
+width:80%;
+height:100px;
+margin:0px auto;
+
+}
+
+.menudropdown1 ul{
+ padding:0px;
+}
+
+.menudropdown1 ul li{
+ float:left;
+ background-color:black;
+ color:white;
+ width:200px;
+ height:50px;
+ line-height:50px;
+ font-size:25px;
+ text-align:center;
+ list-style:none;
+ opacity:0.6;
+}
+
+.menudropdown1 ul li ul{
+ display:none;
+}
+
+.menudropdown1 ul li:hover > ul{
+ display:block;
+}
+
+.menudropdown1 ul li:hover{
+ background-color:#32CD32;
+ opacity:0.9;
+}
+
+.menudropdown1 ul li ul li{
+ position:relative;
+}
+
+.menudropdown1 ul li ul li ul{
+ position:absolute;
+ left:200px;
+ top:0px;
+}
+
+
+</style>
+</head>
+<body>
+<div class="top">
+  <h1>NATIONAL INSTITUTE OF TECHNOLOGY<b> WARANGAL</b></h1>
+  <p>Talent wins games, but teamwork and intelligence win championships</p>
+
+</div>
+<div class="menudropdown1">
+<ul>
+ <li> Home
+  <ul>
+   <li> overview </li>
+   <li> Diversity </li>
+   <li> outcome </li>
+   <li> location </li>
+  </ul>
+ </li>
+ <li> Admission 
+   <ul>
+   <li> overview </li>
+   <li> undergraduate education </li>
+   <li> graduate education </li>
+   <li> online education </li>
+  </ul>
+ </li>
+<ul>
+ <li> Academy
+  <ul>
+   <li> overview </li>
+   <li> undergraduate </li>
+   <li> Graduate </li>
+   <li>International </li>
+  </ul>
+ </li>
+<ul>
+ <li> Faculty
+  <ul>
+   <li> facultybook </li>
+   <li> prospectivefaculty </li>
+   <li> currentfaculty </li>
+   <li> internalpages</li>
+  </ul>
+ </li>
+<ul>
+ <li> Event
+  <ul>
+   <li> overview </li>
+   <li> News </li>
+   <li> Event calender </li>
+   <li> blogs </li>
+  </ul>
+ </li>
+</style>
+</head>
+<body>
+<div class="menudropdown"></div>
+<div class="informative_links">
+      <h1>QUICK LINKS</h1>
+      <ol>
+       <li><a href= "https://first-lms.nitwcloud.in/moodle/">Exam Portal</a></li>
+       <li><a href="https://wsdc.nitw.ac.in/">Student Portal</a></li>
+       <li><a href="https://clubs.nitw.in">Clubs Portal</a></li>
+      </ol>
+</div>
+<marquee>
+   <div class="slider">
+        <div class="images">
+            <input type="radio" name="slide" id="img1" checked>
+            <input type="radio" name="slide" id="img2">
+            <input type="radio" name="slide" id="img3">
+            <input type="radio" name="slide" id="img4">
+              <input type="radio" name="slide" id="img5">
+            <input type="radio" name="slide" id="img6s">
+
+
+            <img src="c:\Users\Lenovo\Documents\image 1.jpg" height="500" width="100%" class="m1" alt="img1">
+            <img src="c:\Users\Lenovo\Documents\image 6.jpg" height="500" width="700" class="m2" alt="img2">
+            <img src="c:\Users\Lenovo\Documents\image 3.jpg" height="500" width="700" class="m3" alt="img3">
+            <img src="c:\Users\Lenovo\Documents\image 5.jpg" height="500" width="700" class="m4" alt="img4">
+            <img src="c:\Users\Lenovo\Documents\image 6.jpg" height="500" width="700" class="m5" alt="img5">
+            <img src="c:\Users\Lenovo\Documents\image 2.jpg" height="500" width="700" class="m6" alt="img6">
+
+        </div>
+</marquee>
+        <div class="dots">
+            <label for="c:\Users\Lenovo\Documents\image 1.jpg"></label>
+            <label for="img2"></label>
+            <label for="img3"></label>
+            <label for="img4"></label>
+          <label for="img5"></label>
+            <label for="img6"></label>
+
+        </div>
+
+    </div>
+</body>
+</html>
